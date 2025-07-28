@@ -17,7 +17,7 @@ const productRoutes = require('./routes/productRoutes');
 // ✅ Initialize app
 const app = express();
 const PORT = process.env.PORT || 7000;
-const JWT_SECRET = process.env.JWT_SECRET || 's3cret';
+const JWT_SECRET = process.env.JWT_SECRET || 's0m3R@nd0mS3cr3tK3yF0rJvWtS!gn1ngApl!cat!0nPr0d#ct!0n';
 const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://aparanjinipallela1:appu0610@cluster0.curryg2.mongodb.net/agrisphere';
 // ✅ Serve static images from /public/images
 app.use('/images', express.static(path.join(__dirname, 'public/images')));

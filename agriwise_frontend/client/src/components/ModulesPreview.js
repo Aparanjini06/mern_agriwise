@@ -7,8 +7,8 @@ const modules = [
   { title: 'Crop Planner', path: '/planner' },
   { title: 'Organic Guide', path: '/guide' },
   { title: 'Fertilizers', path: '/fertilizers' },
-  { title: 'Shop Now', path: '/organic-shop' },   // default category (Seeds)
-               // cart path
+  { title: 'Shop Now', path: '/organic-shop' },   
+               
 ];
 
 function ModulesPreview() {

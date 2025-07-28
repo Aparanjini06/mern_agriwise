@@ -6,10 +6,10 @@ const Logout = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Clear localStorage/sessionStorage tokens or user data
+    
     localStorage.clear();
 
-    // Optionally, show message for 1.5 seconds before redirecting
+    
     const timer = setTimeout(() => {
       navigate('/');
     }, 1500);

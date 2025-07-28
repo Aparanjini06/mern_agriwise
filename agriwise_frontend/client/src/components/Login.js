@@ -19,15 +19,17 @@ function Login() {
     try {
       const res = await axios.post('/login', formData);
 
-      // Store token and user info
+      
+      console.log('✅ Login successful:', res.data);
+
+     
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('user', JSON.stringify(res.data.user));
-      localStorage.setItem('userId', res.data.user._id); // ✅ store userId separately
-
+      localStorage.setItem('userId', res.data.user._id); 
       alert(res.data.message);
       navigate('/');
     } catch (error) {
-      console.error('Login error:', error.response?.data || error.message);
+      console.error('❌ Login error:', error.response?.data || error.message);
       alert('Login failed!');
     }
   };
