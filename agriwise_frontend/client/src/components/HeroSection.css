@@ -1,0 +1,50 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('D:/agriwise_frontend/client/public/images/farm.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.overlay {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 35%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.hero-text {
+  color: white;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons button {
+  padding: 10px 20px;
+  margin-right: 1rem;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-buttons button:hover {
+  background-color: #27ae60;
+}

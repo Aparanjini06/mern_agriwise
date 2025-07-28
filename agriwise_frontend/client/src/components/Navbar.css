@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #124f31; /* Green */
+  padding: 12px 24px;
+  color: white;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu, .profile {
+  position: relative;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 45px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  width: 180px;
+  z-index: 10;
+}
+
+.dropdown-left {
+  left: 0;
+}
+
+.dropdown-right {
+  right: 0;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #e6f4ea;
+}
+.home-link {
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px 10px;
+  
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.home-link:hover {
+  background-color: #044408;
+}

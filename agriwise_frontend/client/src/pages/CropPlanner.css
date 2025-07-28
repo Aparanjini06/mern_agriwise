@@ -1,0 +1,140 @@
+.crop-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 128, 0, 0.1);
+}
+
+.crop-select,
+.crop-button {
+  padding: 0.75rem;
+  border: 1px solid #a7f3d0;
+  border-radius: 0.5rem;
+  outline: none;
+  width: 100%;
+}
+
+.crop-select:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.4);
+}
+
+.crop-button {
+  background-color: #16a34a;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.crop-button:hover {
+  background-color: #15803d;
+}
+.crop-card img {
+  max-height: 250px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.crop-description {
+  font-size: 1rem;
+  color: #4b5563; /* Tailwind's text-gray-600 */
+  background-color: #f9fafb; /* Light background */
+  padding: 1rem;
+  border-left: 4px solid #10b981; /* Green accent */
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.soil-flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.soil-flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+}
+
+.soil-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 2px solid #d1d5db; /* gray-300 */
+  transition: transform 0.3s ease;
+}
+
+.soil-image:hover {
+  transform: scale(1.05);
+  border-color: #10b981; /* green-500 */
+}
+
+.soil-label {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #374151; /* gray-700 */
+}
+.crop-suggestions-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.crop-suggestions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.crop-card {
+  background-color: #fff;
+  border: 1px solid #d1e7dd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.crop-card:hover {
+  transform: translateY(-5px);
+}
+
+.crop-card img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+.crop-card h2 {
+  font-size: 1.3rem;
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.crop-card p {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.crop-suggestions-grid .border {
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.crop-suggestions-grid .border:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}

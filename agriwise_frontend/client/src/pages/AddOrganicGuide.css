@@ -1,0 +1,60 @@
+/* AddOrganicGuide.css */
+
+.add-guide-container {
+  background: linear-gradient(to bottom right, #f0fff4, #e0f7e9);
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.1);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.add-guide-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #2f855a;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-field label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  display: block;
+  color: #2f4f4f;
+}
+
+.form-field textarea {
+  width: 100%;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  transition: border 0.3s ease;
+}
+
+.form-field textarea:focus {
+  border-color: #38a169;
+  outline: none;
+}
+
+input[type="file"] {
+  background: #f7fafc;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e0;
+  width: 100%;
+}
+
+.add-button {
+  background-color: #38a169;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #2f855a;
+  cursor: pointer;
+}

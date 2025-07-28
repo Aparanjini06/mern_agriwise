@@ -1,0 +1,17 @@
+.thankyou-container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.thankyou-title {
+  font-size: 36px;
+  color: #2e7d32; /* green shade */
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.thankyou-message {
+  font-size: 18px;
+  color: #444;
+}

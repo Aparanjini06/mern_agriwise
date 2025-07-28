@@ -1,0 +1,182 @@
+/* OrganicGuide.css */
+
+.organic-container {
+  background: #f8faf5;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+  transition: 0.3s ease;
+}
+
+.organic-container:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 18px rgba(0, 128, 0, 0.1);
+}
+
+.organic-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2f855a;
+  border-bottom: 2px solid #c6f6d5;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+/* Button Enhancements */
+.add-button {
+  background: linear-gradient(to right, #38a169, #2f855a);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 100, 0, 0.2);
+}
+
+.add-button:hover {
+  transform: translateY(-2px) scale(1.05);
+  background: linear-gradient(to right, #2f855a, #276749);
+}
+
+/* Image Styling */
+.organic-image {
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 240px;
+  width: 100%;
+  margin-bottom: 12px;
+  border: 2px solid #c6f6d5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.organic-image:hover {
+  transform: scale(1.03);
+}
+
+/* Typography */
+.organic-title {
+  color: #22543d;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.info-title {
+  font-weight: 600;
+  color: #276749;
+  margin-bottom: 6px;
+}
+
+.info-content {
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+/* Accordion animation */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+}
+
+.accordion-open {
+  max-height: 1000px; /* You can adjust this max */
+}
+
+/* Video link styling */
+.video-link {
+  color: #2b6cb0;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.video-link:hover {
+  color: #2c5282;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .organic-title {
+    font-size: 1.75rem;
+  }
+
+  .add-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .info-title {
+    font-size: 1rem;
+  }
+
+  .info-content {
+    font-size: 0.9rem;
+  }
+}
+/* Move add button to the left under title */
+.add-button {
+  background: linear-gradient(to right, #38a169, #2f855a);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 100, 0, 0.2);
+}
+
+.add-button:hover {
+  transform: translateY(-2px) scale(1.05);
+  background: linear-gradient(to right, #2f855a, #276749);
+}
+
+/* Crop toggle button */
+.crop-toggle-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #f0fff4;
+  border: 2px solid #c6f6d5;
+  padding: 16px 24px;
+  font-size: 1.125rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 128, 0, 0.05);
+}
+
+.crop-toggle-btn:hover {
+  background: #e6fffa;
+  transform: scale(1.01);
+}
+
+.crop-toggle-btn.active {
+  background: #c6f6d5;
+  border-color: #38a169;
+}
+/* Accordion Animation */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+.accordion-open {
+  max-height: 1000px;
+  transition: max-height 0.8s ease;
+}
+
+/* Crop Detail Background */
+.crop-detail-section {
+  background: #f0fff4;
+  border: 2px solid #c6f6d5;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(34, 139, 34, 0.1);
+}
+
+/* Emoji crop toggle already styled earlier */
