@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:7000', // your backend base URL
+  baseURL: 'https://mern-agriwise.onrender.com', // your backend base URL
   headers: {
     'Content-Type': 'application/json',
   },

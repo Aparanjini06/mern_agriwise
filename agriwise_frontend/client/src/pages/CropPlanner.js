@@ -27,7 +27,7 @@ const CropPlanner = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await axios.post('http://localhost:7000/api/planner', form);
+    const res = await axios.post('https://mern-agriwise.onrender.com/api/planner', form);
     setCrops(res.data.crops);
   };
 

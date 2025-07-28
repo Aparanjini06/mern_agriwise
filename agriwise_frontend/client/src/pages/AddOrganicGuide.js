@@ -35,7 +35,7 @@ const AddOrganicGuide = () => {
     }
 
     try {
-      await axios.post('http://localhost:7000/api/organic/add', formData);
+      await axios.post('https://mern-agriwise.onrender.com/api/organic/add', formData);
       alert('Crop Guide Added with Image!');
       setForm({
         cropName: '',

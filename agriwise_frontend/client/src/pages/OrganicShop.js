@@ -9,7 +9,7 @@ const OrganicShop = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:7000/api/products")
+      .get("https://mern-agriwise.onrender.com/api/products")
       .then((res) => {
         setProducts(res.data);
       })

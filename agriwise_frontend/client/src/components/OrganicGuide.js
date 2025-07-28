@@ -27,7 +27,7 @@ const OrganicGuide = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:7000/api/organic/guides')
+      .get('https://mern-agriwise.onrender.com/api/organic/guides')
       .then((res) => setGuides(res.data.guides))
       .catch((err) => console.error(err));
   }, []);

@@ -7,7 +7,7 @@ const FertilizerDetail = () => {
   const [recipe, setRecipe] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:7000/api/fertilizers/${id}`)
+    axios.get(`https://mern-agriwise.onrender.com/api/fertilizers/${id}`)
       .then(res => setRecipe(res.data))
       .catch(err => console.error(err));
   }, [id]);
