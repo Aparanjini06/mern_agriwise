@@ -153,7 +153,7 @@ app.get('/get-crops', authenticateToken, async (req, res) => {
 
 // Health check
 app.get('/', (req, res) => {
-  res.send('🌿 AgriSphere backend is running...');
+  res.send('🌿 AgriWise backend is running...');
 });
 
 // Start server
